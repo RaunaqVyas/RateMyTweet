@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  ExchangeCoin
+//  RateMyTweet
 //
-//  Created by Raunaq Vyas on 2022-02-06.
+//  Created by Raunaq Vyas on 2020-10-14.
 //
 
 import UIKit

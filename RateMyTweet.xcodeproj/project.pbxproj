@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2009AB8227BEDA44003D39DA /* TweetApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2009AB8127BEDA44003D39DA /* TweetApiModel.swift */; };
+		2009AB9627BEDE87003D39DA /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2009AB8D27BEDE04003D39DA /* SwifteriOS.framework */; };
+		2009AB9727BEDE87003D39DA /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2009AB8D27BEDE04003D39DA /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		20D386D027B05FD10031E0A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D386CF27B05FD10031E0A1 /* AppDelegate.swift */; };
 		20D386D227B05FD10031E0A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D386D127B05FD10031E0A1 /* SceneDelegate.swift */; };
 		20D386D427B05FD10031E0A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D386D327B05FD10031E0A1 /* ViewController.swift */; };
@@ -14,10 +17,65 @@
 		20D386DA27B05FD10031E0A1 /* ExchangeCoin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20D386D827B05FD10031E0A1 /* ExchangeCoin.xcdatamodeld */; };
 		20D386DC27B05FD50031E0A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D386DB27B05FD50031E0A1 /* Assets.xcassets */; };
 		20D386DF27B05FD50031E0A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D386DD27B05FD50031E0A1 /* LaunchScreen.storyboard */; };
+		20ECAE6227B9AFED000BF21B /* tweetClasifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 20ECAE6127B9AFED000BF21B /* tweetClasifier.mlmodel */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2009AB8C27BEDE04003D39DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2009AB8427BEDE04003D39DA /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		2009AB8E27BEDE04003D39DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2009AB8427BEDE04003D39DA /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		2009AB9027BEDE04003D39DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2009AB8427BEDE04003D39DA /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		2009AB9227BEDE04003D39DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2009AB8427BEDE04003D39DA /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		2009AB9427BEDE04003D39DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2009AB8427BEDE04003D39DA /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B4D5751C7BAC4500E06514;
+			remoteInfo = SwifterTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2009AB9827BEDE87003D39DA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2009AB9727BEDE87003D39DA /* SwifteriOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		20D386CC27B05FD10031E0A1 /* ExchangeCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2009AB8127BEDA44003D39DA /* TweetApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetApiModel.swift; sourceTree = "<group>"; };
+		2009AB8427BEDE04003D39DA /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
+		20D386CC27B05FD10031E0A1 /* RateMyTweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RateMyTweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D386CF27B05FD10031E0A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20D386D127B05FD10031E0A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		20D386D327B05FD10031E0A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +84,7 @@
 		20D386DB27B05FD50031E0A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20D386DE27B05FD50031E0A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20D386E027B05FD50031E0A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20ECAE6127B9AFED000BF21B /* tweetClasifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = tweetClasifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,61 +92,86 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2009AB9627BEDE87003D39DA /* SwifteriOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2009AB8527BEDE04003D39DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2009AB8D27BEDE04003D39DA /* SwifteriOS.framework */,
+				2009AB8F27BEDE04003D39DA /* SwifterMac.framework */,
+				2009AB9127BEDE04003D39DA /* SwifterDemoiOS.app */,
+				2009AB9327BEDE04003D39DA /* SwifterDemoMac.app */,
+				2009AB9527BEDE04003D39DA /* SwifterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		20D386C327B05FD00031E0A1 = {
 			isa = PBXGroup;
 			children = (
-				20D386CE27B05FD10031E0A1 /* ExchangeCoin */,
+				2009AB8427BEDE04003D39DA /* Swifter.xcodeproj */,
+				20D386CE27B05FD10031E0A1 /* RateMyTweet */,
 				20D386CD27B05FD10031E0A1 /* Products */,
+				20ECAE5E27B9ACC9000BF21B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		20D386CD27B05FD10031E0A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20D386CC27B05FD10031E0A1 /* ExchangeCoin.app */,
+				20D386CC27B05FD10031E0A1 /* RateMyTweet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20D386CE27B05FD10031E0A1 /* ExchangeCoin */ = {
+		20D386CE27B05FD10031E0A1 /* RateMyTweet */ = {
 			isa = PBXGroup;
 			children = (
+				20ECAE6127B9AFED000BF21B /* tweetClasifier.mlmodel */,
 				20D386CF27B05FD10031E0A1 /* AppDelegate.swift */,
 				20D386D127B05FD10031E0A1 /* SceneDelegate.swift */,
 				20D386D327B05FD10031E0A1 /* ViewController.swift */,
+				2009AB8127BEDA44003D39DA /* TweetApiModel.swift */,
 				20D386D527B05FD10031E0A1 /* Main.storyboard */,
 				20D386DB27B05FD50031E0A1 /* Assets.xcassets */,
 				20D386DD27B05FD50031E0A1 /* LaunchScreen.storyboard */,
 				20D386E027B05FD50031E0A1 /* Info.plist */,
 				20D386D827B05FD10031E0A1 /* ExchangeCoin.xcdatamodeld */,
 			);
-			path = ExchangeCoin;
+			path = RateMyTweet;
+			sourceTree = "<group>";
+		};
+		20ECAE5E27B9ACC9000BF21B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		20D386CB27B05FD10031E0A1 /* ExchangeCoin */ = {
+		20D386CB27B05FD10031E0A1 /* RateMyTweet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20D386E327B05FD50031E0A1 /* Build configuration list for PBXNativeTarget "ExchangeCoin" */;
+			buildConfigurationList = 20D386E327B05FD50031E0A1 /* Build configuration list for PBXNativeTarget "RateMyTweet" */;
 			buildPhases = (
 				20D386C827B05FD10031E0A1 /* Sources */,
 				20D386C927B05FD10031E0A1 /* Frameworks */,
 				20D386CA27B05FD10031E0A1 /* Resources */,
+				2009AB9827BEDE87003D39DA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ExchangeCoin;
+			name = RateMyTweet;
 			productName = ExchangeCoin;
-			productReference = 20D386CC27B05FD10031E0A1 /* ExchangeCoin.app */;
+			productReference = 20D386CC27B05FD10031E0A1 /* RateMyTweet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +189,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 20D386C727B05FD00031E0A1 /* Build configuration list for PBXProject "ExchangeCoin" */;
+			buildConfigurationList = 20D386C727B05FD00031E0A1 /* Build configuration list for PBXProject "RateMyTweet" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,12 +200,56 @@
 			mainGroup = 20D386C327B05FD00031E0A1;
 			productRefGroup = 20D386CD27B05FD10031E0A1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2009AB8527BEDE04003D39DA /* Products */;
+					ProjectRef = 2009AB8427BEDE04003D39DA /* Swifter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				20D386CB27B05FD10031E0A1 /* ExchangeCoin */,
+				20D386CB27B05FD10031E0A1 /* RateMyTweet */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2009AB8D27BEDE04003D39DA /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = 2009AB8C27BEDE04003D39DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2009AB8F27BEDE04003D39DA /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = 2009AB8E27BEDE04003D39DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2009AB9127BEDE04003D39DA /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = 2009AB9027BEDE04003D39DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2009AB9327BEDE04003D39DA /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = 2009AB9227BEDE04003D39DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2009AB9527BEDE04003D39DA /* SwifterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterTests.xctest;
+			remoteRef = 2009AB9427BEDE04003D39DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		20D386CA27B05FD10031E0A1 /* Resources */ = {
@@ -141,9 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20ECAE6227B9AFED000BF21B /* tweetClasifier.mlmodel in Sources */,
 				20D386D427B05FD10031E0A1 /* ViewController.swift in Sources */,
 				20D386DA27B05FD10031E0A1 /* ExchangeCoin.xcdatamodeld in Sources */,
 				20D386D027B05FD10031E0A1 /* AppDelegate.swift in Sources */,
+				2009AB8227BEDA44003D39DA /* TweetApiModel.swift in Sources */,
 				20D386D227B05FD10031E0A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,7 +475,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20D386C727B05FD00031E0A1 /* Build configuration list for PBXProject "ExchangeCoin" */ = {
+		20D386C727B05FD00031E0A1 /* Build configuration list for PBXProject "RateMyTweet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20D386E127B05FD50031E0A1 /* Debug */,
@@ -354,7 +484,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20D386E327B05FD50031E0A1 /* Build configuration list for PBXNativeTarget "ExchangeCoin" */ = {
+		20D386E327B05FD50031E0A1 /* Build configuration list for PBXNativeTarget "RateMyTweet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20D386E427B05FD50031E0A1 /* Debug */,
